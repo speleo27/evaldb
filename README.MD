@@ -8,11 +8,12 @@ mysql -u -p
 ## Créer une base de données 
 ```
 CREATE DATABASE [name_db] IF NOT EXISTS;
+use [db_name]
 ```
 ## importer le fichier .sql
-pour ce faire ouvrir un nouveau terminal
+
 ```
-mysql -u -p dbname <filename.sql
+source filename.sql
 ```
 ## Création des tables, 
 dans le terminal connecter a mysql
